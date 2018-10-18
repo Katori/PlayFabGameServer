@@ -97,6 +97,11 @@ namespace PlayFab.ProfilesModels
         /// </summary>
         public Dictionary<string,EntityProfileFileMetadata> Files;
         /// <summary>
+        /// The friendly name of the entity. This field may serve different purposes for different entity types. i.e.: for a title
+        /// player account it could represent the display name of the player, whereas on a character it could be character's name.
+        /// </summary>
+        public string FriendlyName;
+        /// <summary>
         /// The language on this profile.
         /// </summary>
         public string Language;

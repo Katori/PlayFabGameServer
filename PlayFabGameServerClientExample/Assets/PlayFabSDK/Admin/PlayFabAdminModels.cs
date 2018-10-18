@@ -1851,6 +1851,7 @@ namespace PlayFab.AdminModels
         FacebookInstantGamesIdNotLinked,
         InvalidFacebookInstantGamesSignature,
         FacebookInstantGamesAuthNotConfiguredForTitle,
+        EntityProfileConstraintValidationFailed,
         MatchmakingEntityInvalid,
         MatchmakingPlayerAttributesInvalid,
         MatchmakingCreateRequestMissing,

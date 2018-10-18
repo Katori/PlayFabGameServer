@@ -398,6 +398,7 @@ namespace PlayFab
         FacebookInstantGamesIdNotLinked = 1395,
         InvalidFacebookInstantGamesSignature = 1396,
         FacebookInstantGamesAuthNotConfiguredForTitle = 1397,
+        EntityProfileConstraintValidationFailed = 1398,
         MatchmakingEntityInvalid = 2001,
         MatchmakingPlayerAttributesInvalid = 2002,
         MatchmakingCreateRequestMissing = 2003,
